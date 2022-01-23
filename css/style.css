@@ -1,0 +1,192 @@
+@import './utilities.css';
+:root{
+    --primary:#3DCFD3;
+    --dark:#161616;
+    --pure:#FFFFFF;
+    --ternary:#898989;
+    --light:#F2F2F2;
+    --secondary:#070606
+} 
+body{
+    font-family: 'Poppins',sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smotthing: antialined;
+
+}
+
+header{
+    background: var(--dark);
+    clip-path: polygon( 0 0,100% 0,100% 100%,76% 90%,0 100%);
+}
+.container{
+    max-width: 1152px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+header nav .left a{
+    color: var(--pure);
+    text-decoration: none;
+    margin-right: 2rem;
+    text-transform: uppercase;
+    transition: all .3s ease;
+}
+header nav .left a:hover{
+    color: var(--primary);
+}
+header nav{
+    padding: 2rem 0;
+}
+header nav .branding{
+    margin-right: 3rem;
+}
+.hero{
+    padding: 1rem 0;
+}
+.hero .left img{
+    width: 600px;
+    margin-bottom: 0%;
+}
+.hero .right{
+    color: var(--pure);
+}
+.hero .right h6{
+    font-size: 1.6rem;
+    color: var(--primary);
+    margin-bottom: 0.5rem;
+}
+
+.hero .right h1{
+    font-size: 4rem;
+    font-weight: 100;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+.hero .right h1 span{
+    color: var(--primary);
+}
+
+.hero .right p{
+    line-height: 1.9;
+    margin-bottom: 2rem;
+}
+
+section{
+    padding: 6rem 0;
+}
+
+section.about .about-me-img{
+    height: 400px;
+}
+section.about h1{
+    margin-bottom: 1rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+section.about h1 span{
+    color: var(--primary);
+}
+section.about h3{
+    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+section.about p{
+    font-family: 'Leto',sans-serif;
+    color: var(--ternary);
+    line-height: 1.9;
+    margin-bottom:2rem ;
+}
+section.about .social{
+    display: flex;
+
+}
+section.about .social a{
+    background: var(--dark);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    -webkit-border-radius:50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius:50%;
+    margin-right: 0.6rem;
+    transition: all .3s ease;
+}
+section.about .social a:hover{
+    background: var(--primary);
+
+}
+section.about .social a img{
+    width: 100%;
+    height: 100%;
+    padding: 0.2rem;
+}
+
+.section-heading{
+    color: var(--secondary);
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 0.5;
+}
+.section-heading  span{
+    color: var(--primary);
+}
+
+.section-heading + p{
+    color: var(--ternary);
+    font-family: 'Lato',sans-serif;
+    margin-bottom: 8rem;
+    text-align: center;
+}
+section.Services{
+    background: var(--light);
+}
+section.Services .card-wrapper{
+    display:grid ;
+    grid-template-columns:repeat(3,1fr);
+    grid-column-gap:2rem;
+    grid-row-gap:6rem;
+
+}
+section.Services .card-wrapper .card{
+    background: var(--pure);
+    padding: 3rem 2rem;
+    position: relative;
+    padding-top: 5rem;
+    text-align: center;
+    transition: all .3s ease;
+
+}
+section.Services .card-wrapper .card img{
+    position: absolute;
+    top:-3.5rem;
+    left: 50%;
+    transform: translatex(-50%);
+}
+section.Services .card-wrapper .card h2{
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+
+}
+section.Services .card-wrapper .card p{
+    font-family: 'Lato',sans-serif;
+    color: var(--ternary);
+    line-height: 1.6;
+}
+section.Services .card-wrapper .card:hover{
+    background: var(--dark);
+}
+section.Services .card-wrapper .card:hover h2,section.Services .card-wrapper .card:hover p{
+    color: var(--pure);
+}
