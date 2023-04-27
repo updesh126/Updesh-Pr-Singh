@@ -8,6 +8,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
     <header>
@@ -19,10 +20,9 @@
                 </div>
                 <div>
                     <a href="#">Home</a>
-                    <a href="#">About</a>
-                    <a href="#">Services</a>
-                    <a href="#">Pages</a>
-                    <a href="#">Blog</a>
+                    <a href="#about">About</a>
+                    <a href="#Domain">Domain</a>
+                    <a href="#projects">Project</a>
                 </div>
             </div>
             <div class="right">
@@ -37,7 +37,7 @@
                 <h6>Updesh Pratap Singh</h6>
                 <h1>I'm a Creative 🤖
                     <span>Programmer</span> </h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque error fugit labore nulla impedit, culpa laborum ducimus eveniet, neque placeat et atque quaerat officia deserunt dolor eligendi pariatur optio praesentium dolorum inventore eum ex sit iure nesciunt. 
+                <p>I’m a student Pursuing Btech in Computer Science and engineering From ABES Institute of Technology.
                 </p>
                 <div>
                     <a href="https://drive.google.com/file/d/1LJWMEKG2VGTmIoACCxZdYE6djWDQ2czN/view?usp=sharing" target="_blank"><button class="btn btn-secondary">DOWNLOAD CV</button></a>
@@ -46,17 +46,14 @@
         </div>
     </header>
 
-    <section class="about">
+    <section class="about" id="about">
         <div class="container flex items-center">
             <div class="flex-1"><img class="about-me-img" src="./images/man123.jpg" alt=""></div>
     
             <div class="flex-1">
                 <h1>About <span>Me</span></h1>
                 <h3>Hello! i'm Updesh Pratap Singh</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus odit autem quibusdam. Blanditiis dolore rem quaerat, voluptates magni ipsum vel veniam necessitatibus soluta nobis! 
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur, id!
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veritatis ex optio, eius esse tenetur placeat perferendis corrupti explicabo sequi deleniti.
-                 </p>
+                <p>Pursuing B.tech in Computer Science and Engineering from ABES Institute of Technology, my personal interest is in Game development and from previous year, I have participated in more than 10+ hackathons and won 4 out of them , where we developed AR/VR application from unity 3D.</p>
                 <div class="social">
                     <a href="https://github.com/updesh126" target="_blank"><img src="./images/github-1.svg" alt=""></a>
                     <a href="https://www.facebook.com/campaign/landing.php?campaign_id=14884913640&extra_1=s%7Cc%7C550525804944%7Ce%7Cfacebook%7C&placement=&creative=550525804944&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D14884913640%26adgroupid%3D128696220912%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-1001394929%26loc_physical_ms%3D1007820%26loc_interest_ms%3D%26feeditemid%3D%26param1%3D%26param2%3D&gclid=Cj0KCQjwxIOXBhCrARIsAL1QFCZSnGXmbnek0aXsKcTIp9FqunPlqw0bzU9Zv3otP758C2c-8cIcw7MaAtO2EALw_wcB" target="_blank"><img src="./images/facebook.svg" alt=""></a>
@@ -68,40 +65,113 @@
         </div>
     </section>
 
-    <section class="Services">
+    <section class="Services" id="Domain">
         <div class="container">
-            <h1 class="section-heading"><span>Our</span>Services</h1>
-            <p>We provide high standar clean website for your business solution</p>
+            <h1 class="section-heading"><span>Do</span>main</h1>
+            <p>Having a great incleation towards these technologyes</p>
             <div class="card-wrapper">
+                <div class="card">
+                    <img src="./images/gamedev.svg" alt="">
+                    <h2>Game Development</h2>
+                    <p>DHave developed various visually stunning ,interactive and dynamic gaming applications for mobiles and PC's like zombieland, industrial digital twin which are really engaging.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="./images/unity.svg" alt="">
+                    <h2>Unity 3D</h2>
+                    <p>Developed both 2D and 3D games for multiple platform like Android , windows, linux etc using Unity 3D Game engine.</p>
+                </div>
+                <div class="card">
+                    <img src="./images/figma.svg" alt="">
+                    <h2>Figma UX/UI</h2>
+                    <p>Have been really inclined in building visually appealing interfaces and allowing seamless user experience of any application through various tools like figma, adobe XD etc</p>
+                </div>
+                <div class="card">
+                    <img src="./images/VR.svg" alt="">
+                    <h2>Virtual Reality</h2>
+                    <p>I am really fascinated with the theme of virtual reality and developing realistic 3D models like metaverse, digital twin, VR games.
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="./images/AR.svg" alt="">
+                    <h2>Augmented Reality</h2>
+                    <p>Augument reality is the way to revolutionize how we percieve and I have extensive interest in creating a blend of real and virtual worlds which I have incorporated in educatinal and health domains. 
+                    </p>
+                </div>
                 <div class="card">
                     <img src="./images/brush.svg" alt="">
                     <h2>Graphic Design</h2>
+                    <p>I have mastered the field of graphic designing and developed visually stunning and effective solutions through Adobe Photoshop, CorelDRAW and illustrator.</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+     <section class="Services-project" id="projects">
+        <div class="container">
+            <h1 class="section-heading"><span>My </span>Projects</h1>
+            <p>I have developed these projects over a time.</p>
+            <div class="card-wrapper">
+                <div class="card">
+                    <img src="./images/EV.svg" alt="">
+                    <h2>EV Manufacturing</h2>
                     <p>There are many variation of passages of but the majority have suffered alteraction in some form.</p>
                 </div>
                 <div class="card">
-                    <img src="./images/code.svg" alt="">
-                    <h2>Web Development</h2>
+                    <img src="./images/Edu.svg" alt="">
+                    <h2>Immersive Learning Through AR/VR</h2>
                     <p>There are many variation of passages of but the majority have suffered alteraction in some form.</p>
                 </div><div class="card">
-                    <img src="./images/bag.svg" alt="">
-                    <h2>Media Marketing</h2>
+                    <img src="./images/Town.svg" alt="">
+                    <h2>Meta Town</h2>
                     <p>There are many variation of passages of but the majority have suffered alteraction in some form.</p>
                 </div><div class="card">
-                    <img src="./images/desktop.svg" alt="">
-                    <h2>Web Design</h2>
-                    <p>There are many variation of passages of but the majority have suffered alteraction in some form.</p>
-                </div><div class="card">
-                    <img src="./images/media.svg" alt="">
-                    <h2>Motion Graphic</h2>
-                    <p>There are many variation of passages of but the majority have suffered alteraction in some form.</p>
-                </div><div class="card">
-                    <img src="./images/phone.svg" alt="">
-                    <h2>Apps</h2>
+                    <img src="./images/Zom.svg" alt="">
+                    <h2>Zombieland</h2>
                     <p>There are many variation of passages of but the majority have suffered alteraction in some form.</p>
                 </div>
             </div>
         </div>
     </section>
+
+    <!-- Footer -->
+    <footer class="text-gray-600 body-font">
+        <div class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+          <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
+              <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+            </svg>
+            <span class="ml-3 text-xl">Tailblocks</span>
+          </a>
+          <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2020 Tailblocks —
+            <a href="https://twitter.com/knyttneve" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@knyttneve</a>
+          </p>
+          <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+            <a class="text-gray-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                <circle cx="4" cy="4" r="2" stroke="none"></circle>
+              </svg>
+            </a>
+          </span>
+        </div>
+      </footer>
 
 </body>
 </html>

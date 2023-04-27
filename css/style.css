@@ -1,11 +1,12 @@
 @import './utilities.css';
 :root{
     --primary:#3DCFD3;
-    --dark:#161616;
+    --dark:#222020;
     --pure:#FFFFFF;
     --ternary:#898989;
+    --ternary1:#dddddd;
     --light:#F2F2F2;
-    --secondary:#070606
+    --secondary:#070606;
 } 
 body{
     font-family: 'Poppins',sans-serif;
@@ -188,5 +189,47 @@ section.Services .card-wrapper .card:hover{
     background: var(--dark);
 }
 section.Services .card-wrapper .card:hover h2,section.Services .card-wrapper .card:hover p{
+    color: var(--pure);
+}
+section.Services-project{
+    background: var(--ternary1);
+}
+section.Services-project .card-wrapper{
+    display:grid ;
+    grid-template-columns:repeat(2,1fr);
+    grid-column-gap:2rem;
+    grid-row-gap:6rem;
+
+}
+section.Services-project .card-wrapper .card{
+    background: var(--pure);
+    padding: 3rem 2rem;
+    position: relative;
+    padding-top: 5rem;
+    text-align: center;
+    transition: all .3s ease;
+
+}
+section.Services-project .card-wrapper .card img{
+    position: absolute;
+    top:-3.5rem;
+    left: 50%;
+    transform: translatex(-50%);
+}
+section.Services-project .card-wrapper .card h2{
+    font-weight: 400;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+
+}
+section.Services-project .card-wrapper .card p{
+    font-family: 'Lato',sans-serif;
+    color: var(--ternary);
+    line-height: 1.6;
+}
+section.Services-project .card-wrapper .card:hover{
+    background: var(--dark);
+}
+section.Services-project .card-wrapper .card:hover h2,section.Services .card-wrapper .card:hover p{
     color: var(--pure);
 }
