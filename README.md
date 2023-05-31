@@ -1,7 +1,7 @@
 # MyPortfolio
 
 # click_here 
-(https://updesh126.github.io/MyPortfolio/) 
+([https://updesh126.github.io/MyPortfolio/](https://updesh126.github.io/Updesh-Pr-Singh/)) 
 
 ## 🚀 About Me
 
